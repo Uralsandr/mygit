@@ -1,10 +1,9 @@
-import os
-import sys
+x = 5
+y = 2
 
-- x=1;y=2
-+ x = 1
-+ y = 2
 
-- def foo(  a , b ):
-+ def foo(a, b):
-...
+def foo(x, y):
+    return x * y
+
+
+print(foo(x, y))
